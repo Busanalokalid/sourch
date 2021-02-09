@@ -1,0 +1,29 @@
+{
+  "name": "wa-api",
+  "version": "1.2.0",
+  "description": "Whatsapp API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js",
+    "bot"
+  ],
+  "author": "Fadla",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "http": "0.0.1-security",
+    "qrcode": "^1.4.4",
+    "socket.io": "2.3.0",
+    "whatsapp-web.js": "latest"
+  },
+  "engines": {
+    "node": "v12.10.0"
+  }
+}
